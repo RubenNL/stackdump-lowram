@@ -17,9 +17,7 @@ stackdump isn't optimized.
 
 # How to use
 
-First, make sure your stackdump is up-to-date. The original author hasn't updated his version in a long time, so i made a couple edits to make it work again.
-
-(i will update this later, i hope)
+First, make sure your stackdump is up-to-date. My version (https://github.com/RubenNL/stackdump) worked fine in januari 2020.
 
 This script requires a bit more than double the size of the Posts.xml file, so if you are limited on storage, only download this file at the beginning.
 
