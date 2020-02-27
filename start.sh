@@ -16,9 +16,9 @@ tail -n1 Posts.xml-old > lastLine.xml
 rm Posts.xml
 
 echo step6
-node remove-downvoted-answers.js #uses deletequestions.ids and questions.xml, writes all answers to non-negative questions to answersWithoutDeletedQuestions.xml, with the id of the question at the beginning, to make sorting easier.
+node remove-downvoted-answers.js #uses deletequestions.ids and answers.xml, writes all answers to non-negative questions to answersWithoutDeletedQuestions.xml, with the id of the question at the beginning, to make sorting easier.
 
-rm deleteQuestions.ids
+rm deleteQuestions.ids answers.xml
 echo step7
 node questions-number-beginning.js #uses positiveQuestions.xml, puts the id of the question at the beginning of the line, to make sorting easier. writes to questionsStartId.xml
 rm positiveQuestions.xml
