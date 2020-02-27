@@ -31,7 +31,7 @@ echo step9
 sort --parallel=2 -k 1n -n -o combinedSorted.xml combinedNotSorted.xml #sorts everything. let it do its thing, takes a couple hours.
 rm combinedNotSorted.xml
 echo step10
-cut -f2- combinedSorted.xml > Posts.xml #removes the id at the beginning
+cut -f2- combinedSorted.xml >> Posts.xml #removes the id at the beginning
 rm combinedSorted.xml
 echo step11
 cat lastLine.xml >> Posts.xml #ads the lastline to the file
