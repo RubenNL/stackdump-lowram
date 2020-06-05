@@ -3,7 +3,7 @@ bash script to use stackdump with low amounts of ram, to import stackoverflow.
 
 The bash script only require built-in bash tools: grep, tee, cut, head, tail, awk and sort.
 
-I wasn't able to do everything with bash, but i'm sure it would be possible. Pull requests are welcome!
+I don't think using bash for everything is the way to go, but its at least faster than the old NodeJS version or using lots of swap. Pull requests are welcome!
 
 # WHY???
 
