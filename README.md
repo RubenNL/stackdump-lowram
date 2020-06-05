@@ -1,9 +1,7 @@
 # stackdump-lowram
-bash+nodejs scripts to use stackdump with low amounts of ram, to import stackoverflow.
+bash script to use stackdump with low amounts of ram, to import stackoverflow.
 
-The nodejs scripts require event-stream, which is installed with the first line of the script.
-
-The bash script only require built-in bash tools: grep, tee, cut, head, tail and sort.
+The bash script only require built-in bash tools: grep, tee, cut, head, tail, awk and sort.
 
 I wasn't able to do everything with bash, but i'm sure it would be possible. Pull requests are welcome!
 
