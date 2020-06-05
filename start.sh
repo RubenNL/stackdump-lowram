@@ -13,7 +13,7 @@ echo step4
 head -n2 Posts.xml-old > Posts.xml #XML headers required. took me 4 days to figure this out.
 echo step5
 tail -n1 Posts.xml-old > lastLine.xml
-rm Posts.xml
+rm Posts.xml-old
 
 echo step6
 node remove-downvoted-answers.js #uses deletequestions.ids and answers.xml, writes all answers to non-negative questions to answersWithoutDeletedQuestions.xml, with the id of the question at the beginning, to make sorting easier.
